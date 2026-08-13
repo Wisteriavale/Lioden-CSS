@@ -1187,24 +1187,36 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 
 /* Unsorted */
-img[src$="unsortedlionsbanner.png"] {
-  background: url("https://static.lioden.com/images/layout/unsortedlionsbanner.png") !important;
+a[href$="unsorted.php?id=100501"] > div.cave-grid > img {
+  width: 250px !important;
+  height: 60px !important;
+  padding-right: 100% !important;
+  background: url("https://i.ibb.co/k2RJgWq8/spirit-stallion-disneyscreencaps-com-8842-1.jpg") center/cover no-repeat !important;
+  object-fit: cover;
 }
 
 
 
 
 /* Nesting */
-img[src$="nesting.png"] {
-  background: url('https://static.lioden.com/images/layout/nestingbanner.png') !important;
+a[href$="nesting.php"] > div.cave-grid > img {
+  width: 250px !important;
+  height: 60px !important;
+  padding-right: 100% !important;
+  background: url("https://i.ibb.co/bMHjqq8r/spirit-stallion-disneyscreencaps-com-336-1.jpg") center/cover no-repeat !important;
+  object-fit: cover;
 }
 
 
 
 
 /* Pride Overview */
-img[src$="prideoverviewbanner.png"] {
-  background: url('https://static.lioden.com/images/layout/prideoverviewbanner.png') !important;
+a[href$="lionoverview.php?id=100501"] > div.cave-grid > img {
+  width: 250px !important;
+  height: 60px !important;
+  padding-right: 100% !important;
+  background: url("https://i.ibb.co/kgL4RNKz/spirit-stallion-disneyscreencaps-com-8960-1.jpg") center/cover no-repeat !important;
+  object-fit: cover;
 }
 
 

@@ -1290,11 +1290,42 @@ a[href$="536955"] > div.cave-grid > img {
 
 
 .mound-grid img /* Mound(s) */ {
-	background: url("https://static.lioden.com/images/layout/beetlemound.png");
+	background: url("https://static.lioden.com/images/items/Other/underbrush.png") center;
 	width: 0;
 	height: 0;
 	padding-top: 80px;
-	padding-right: 130px
+	padding-right: 100px
+}
+
+
+
+a[href$="11642"] > div.mound-grid > img {
+	background: url("https://static.lioden.com/images/items/Beetles/EVENTBEETLE_luciolalusitanica.png") center;
+    width: 0;
+    height: 0;
+    padding-top: 80px !important;
+    padding-right: 100px !important;
+}
+
+
+
+a[href$="76063"] > div.mound-grid > img {
+	background: url("https://static.lioden.com/images/items/Beetles/EVENTBEETLE_harmoniaaxyridis.png") center;
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 100px
+}
+
+
+
+
+a[href$="198370"] > div.mound-grid > img {
+	background: url("https://static.lioden.com/images/items/Beetles/EVENTBEETLE_manofwar.png") center;
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 100px
 }
 
 

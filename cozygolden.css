@@ -1288,6 +1288,15 @@ a[href$="536955"] > div.cave-grid > img {
 }
 
 
+a[href$="550681"] > div.cave-grid > img {
+  width: 240px !important;
+  height: 120px !important;
+  padding-right: 100% !important;
+  background: url("https://i.ibb.co/T9YxJTb/Screenshot-2026-09-04-174355.jpg") center/cover no-repeat !important;
+  object-fit: cover;
+}
+
+
 
 .mound-grid img /* Mound(s) */ {
 	background: url("https://static.lioden.com/images/items/Other/underbrush.png") center;

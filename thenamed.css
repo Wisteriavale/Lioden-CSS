@@ -148,7 +148,7 @@ body {
 
 
 .breadcrumb::after {
-        content: "“ We set the fire and we let it burn. ”";
+        content: "“ Until time ignites a spark. ”";
         color: #fefed4;
         position: absolute;
         right: 20% !important; /* (This may need adjusting) */

@@ -1,5 +1,5 @@
 /*
-Modified Lioden Day Theme CSS by Wisteriavale (#100501)
+Modified Lioden Day Theme CSS by (#100501)
 CSS template by Katie (#106445)
 Background from The Wild Robot
 */
@@ -10,7 +10,7 @@ Background from The Wild Robot
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
 
 
 
@@ -21,9 +21,9 @@ Background from The Wild Robot
 
 
 body {
-	background: url('https://images.unsplash.com/photo-1724583698859-8c88eb76fe1b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center center fixed;
+	background: url('https://images.unsplash.com/photo-1725995123767-c050f812c12a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center center fixed;
 	background-size: 110%;
-	font-family: 'Open Sans';
+	font-family: 'Coming Soon';
 	color: #2e2a2b
 }
 
@@ -61,7 +61,7 @@ body {
 
 
 .topbar {
-	background: url('https://i.ibb.co/LhNS88Sd/photo-1702396963890-932b2ef3fb3f-1.jpg') center center fixed;
+	background: url('https://i.ibb.co/8gzNCTWW/photo-1625244919990-4aafda5fcb22-10.jpg') center center fixed;
 	border: none;
 	border-top: none;
 	color: #ffffff;
@@ -77,7 +77,7 @@ body {
 
 
 .navbar {
-	background: rgba(232, 161, 55, 1);
+	background: url('https://i.ibb.co/XfqYrCNM/photo-1625244919990-4aafda5fcb22-8.jpg') center center fixed;;
 	border-bottom: none;
 	color: #000000;
 	border-radius: 0px
@@ -92,8 +92,9 @@ body {
 
 
 .navbar li a {
-	color: rgba(109, 56, 31, 1) !important;
+	color: #521908 !important;
     font-weight: 600 !important;
+    transition: font-size 0.2s ease;
 }
 
 
@@ -105,9 +106,10 @@ body {
 
 
 .navbar li a:hover {
-	background: rgba(229, 133, 0, 1) !important;
+	background: transparent !important;
+    font-size: 21px !important;
 	border-bottom: none;
-	color: #000000 !important;
+	color: #521908 !important;
 	border-radius: 0px
 }
 
@@ -120,8 +122,8 @@ body {
 
 
 .breadcrumb {
-	background: rgba(233, 233, 233, 1) !important;
-        border: none;
+	background: #ce5816 !important;
+        border: 2px;
 	border-radius: 4px !important;
 }
 
@@ -134,7 +136,7 @@ body {
 
 
 .breadcrumb .active {
-	color: #777777
+	color: #fefed4
 }
 
 
@@ -146,8 +148,8 @@ body {
 
 
 .breadcrumb::after {
-        content: "CSS by Wisteriavale (#100501)";
-        color: #777777;
+        content: "“ We set the fire and we let it burn. ”";
+        color: #fefed4;
         position: absolute;
         right: 20% !important; /* (This may need adjusting) */
         z-index: 100
